@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "acLzYXoM02rJGuWBOu3JImMfAdLqydmTPBRy6TR/lWY=",
+  "Source": "NerdStore.Enterprise.Core.WebApi",
+  "BasePath": "_content/NerdStore.Enterprise.Core.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

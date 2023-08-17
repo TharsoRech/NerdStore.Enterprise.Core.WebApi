@@ -1,0 +1,12 @@
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\bin\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.deps.json
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\bin\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.dll
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\bin\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.pdb
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\obj\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\obj\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\obj\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\obj\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.AssemblyInfo.cs
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\obj\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\obj\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.dll
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\obj\Debug\net6.0\refint\NerdStore.Enterprise.Core.Infra.Data.dll
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\obj\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.pdb
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Infrastructure\obj\Debug\net6.0\ref\NerdStore.Enterprise.Core.Infra.Data.dll
