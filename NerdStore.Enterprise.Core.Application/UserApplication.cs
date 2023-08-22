@@ -19,9 +19,24 @@ namespace NerdStore.Enterprise.Core.Application
             _userService = userService;
         }
 
-        public async Task AddUser(LoginDtoUser user)
+        public async Task<int> AddUser(LoginDtoUser user)
         {
-            await _userService.AddUser(user.ToEntity(user));
+            return await _userService.AddUser(user.ToEntity(user));
+        }
+
+        public async Task<List<User>> GetUsers()
+        {
+            return await _userService.GetUsers();
+        }
+
+        public async Task Delete(int id)
+        {
+            await _userService.DeleteUser(id);
+        }
+
+        public async Task ChangePassword(ChagePasswordDTO chagePassword)
+        {
+            await _userService.ChangePassword(chagePassword.Id, chagePassword.Password);
         }
     }
 }

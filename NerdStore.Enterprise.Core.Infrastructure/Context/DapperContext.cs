@@ -31,7 +31,7 @@ namespace NerdStore.Enterprise.Core.Infrastructure.Context
             }
         }
 
-        public async Task<T> QueryFirstOrDefaultAsync<T>(string sql, object entity)
+        public async Task<T> QueryFirstOrDefaultAsync<T>(string sql, object entity = null)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
@@ -44,14 +44,6 @@ namespace NerdStore.Enterprise.Core.Infrastructure.Context
             using (var connection = new SqlConnection(_connectionString))
             {
                 return await connection.QueryFirstAsync(sql, entity);
-            }
-        }
-
-        public async Task<IEnumerable<dynamic>> QueryAsync(string sql, object entity)
-        {
-            using (var connection = new SqlConnection(_connectionString))
-            {
-                return await connection.QueryAsync(sql, entity);
             }
         }
     }

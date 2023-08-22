@@ -14,15 +14,55 @@ namespace NerdStore.Enterprise.Core.Domain.Services
             _nerdStoreRepository = nerdStoreRepository;
         }
 
-        public async Task AddUser(User user)
+        public async Task<int> AddUser(User user)
         {
             try
             {
-                await _nerdStoreRepository.AddUser(user.Login, user.Password);
+               return await _nerdStoreRepository.AddUser(user.Login, user.Password);
             }
             catch (Exception ex)
             {
                 _logger.LogError("Error to AddUser ", ex);
+                throw;
+            }
+        }
+
+
+        public async Task<List<User>> GetUsers()
+        {
+            try
+            {
+                return await _nerdStoreRepository.GetUsers();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error to GetUsers ", ex);
+                throw;
+            }
+        }
+
+        public async Task ChangePassword(int id,string password)
+        {
+            try
+            {
+                await _nerdStoreRepository.ChangePassword(id, password);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error to GetUsers ", ex);
+                throw;
+            }
+        }
+
+        public async Task DeleteUser(int id)
+        {
+            try
+            {
+                await _nerdStoreRepository.DeleteUser(id);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error to GetUsers ", ex);
                 throw;
             }
         }

@@ -4,6 +4,12 @@ namespace NerdStore.Enterprise.Core.Domain.Interfaces
 {
     public interface IUserService
     {
-        Task AddUser(User user);
+        Task<int> AddUser(User user);
+
+        Task<List<User>> GetUsers();
+
+        Task ChangePassword(int id, string password);
+
+        Task DeleteUser(int id);
     }
 }

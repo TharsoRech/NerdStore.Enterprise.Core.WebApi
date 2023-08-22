@@ -19,8 +19,25 @@ namespace NerdStore.Enterprise.Core.WebApi.Controllers
         [HttpPost()]
         public async Task<IActionResult> AddUser(LoginDtoUser user)
         {
-            await _userApplication.AddUser(user);
-            return Ok(user);
+            return Ok(await _userApplication.AddUser(user));
+        }
+
+        [HttpPut()]
+        public async Task ChangePassword(ChagePasswordDTO chagePasswordDTO)
+        {
+            await _userApplication.ChangePassword(chagePasswordDTO);
+        }
+
+        [HttpGet()]
+        public async Task<IActionResult> GetUsers()
+        {
+            return Ok(await _userApplication.GetUsers());
+        }
+
+        [HttpDelete()]
+        public async Task DeleteUser(int id)
+        {
+           await _userApplication.Delete(id);
         }
     }
 }

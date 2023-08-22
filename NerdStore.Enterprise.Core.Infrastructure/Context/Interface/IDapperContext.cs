@@ -6,10 +6,9 @@
 
         Task<T> QuerySingleOrDefaultAsync<T>(string sql, object entity);
 
-        Task<T> QueryFirstOrDefaultAsync<T>(string sql, object entity);
+        Task<T> QueryFirstOrDefaultAsync<T>(string sql, object entity = null);
 
         Task<T> QueryFirstAsync<T>(string sql, object entity);
 
-        Task<IEnumerable<dynamic>> QueryAsync(string sql, object entity);
     }
 }
