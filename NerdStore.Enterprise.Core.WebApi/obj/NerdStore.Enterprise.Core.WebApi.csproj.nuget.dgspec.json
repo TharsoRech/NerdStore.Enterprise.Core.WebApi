@@ -86,11 +86,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Tharso\\source\\repos\\NerdStore.Enterprise.Core.WebApi\\NerdStore.Enterprise.Core.Infrastructure\\NerdStore.Enterprise.Core.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Tharso\\source\\repos\\NerdStore.Enterprise.Core.WebApi\\NerdStore.Enterprise.Core.Infrastructure\\NerdStore.Enterprise.Core.Infra.Data.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -103,9 +99,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.24.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.24.0, )"
             }
           },
           "imports": [
@@ -151,7 +163,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Tharso\\source\\repos\\NerdStore.Enterprise.Core.WebApi\\NerdStore.Enterprise.Core.Domain\\NerdStore.Enterprise.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Tharso\\source\\repos\\NerdStore.Enterprise.Core.WebApi\\NerdStore.Enterprise.Core.Domain\\NerdStore.Enterprise.Core.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -168,11 +184,23 @@
               "target": "Package",
               "version": "[2.0.143, )"
             },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.1.1, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
             }
@@ -240,6 +268,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
             "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"

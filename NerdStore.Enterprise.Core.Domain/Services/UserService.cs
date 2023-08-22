@@ -1,7 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using NerdStore.Enterprise.Core.Domain.Entities;
 using NerdStore.Enterprise.Core.Domain.Interfaces;
-using NerdStore.Enterprise.Core.Infrastructure.Repositories.Interfaces;
 
 namespace NerdStore.Enterprise.Core.Domain.Services
 {

@@ -10,6 +10,3 @@ C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterpri
 C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Domain\obj\Debug\net6.0\refint\NerdStore.Enterprise.Core.Domain.dll
 C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Domain\obj\Debug\net6.0\NerdStore.Enterprise.Core.Domain.pdb
 C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Domain\obj\Debug\net6.0\ref\NerdStore.Enterprise.Core.Domain.dll
-C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Domain\bin\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.dll
-C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Domain\bin\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.pdb
-C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.Domain\obj\Debug\net6.0\NerdStore.Enterprise.Core.Domain.csproj.CopyComplete

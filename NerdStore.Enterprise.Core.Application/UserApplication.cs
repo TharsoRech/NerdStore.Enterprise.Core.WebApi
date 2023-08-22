@@ -1,4 +1,5 @@
-﻿using NerdStore.Enterprise.Core.Application.Interfaces;
+﻿using NerdStore.Enterprise.Core.Application.Dtos;
+using NerdStore.Enterprise.Core.Application.Interfaces;
 using NerdStore.Enterprise.Core.Domain.Entities;
 using NerdStore.Enterprise.Core.Domain.Interfaces;
 using System;
@@ -18,9 +19,9 @@ namespace NerdStore.Enterprise.Core.Application
             _userService = userService;
         }
 
-        public async Task AddUser(User user)
+        public async Task AddUser(LoginDtoUser user)
         {
-            await _userService.AddUser(user);
+            await _userService.AddUser(user.ToEntity(user));
         }
     }
 }

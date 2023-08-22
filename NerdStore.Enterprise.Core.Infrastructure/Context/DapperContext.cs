@@ -23,7 +23,7 @@ namespace NerdStore.Enterprise.Core.Infrastructure.Context
             }
         }
 
-        public async Task<dynamic> QuerySingleOrDefaultAsync(string sql, object entity)
+        public async Task<T> QuerySingleOrDefaultAsync<T>(string sql, object entity)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
@@ -31,15 +31,15 @@ namespace NerdStore.Enterprise.Core.Infrastructure.Context
             }
         }
 
-        public async Task<dynamic> QueryFirstOrDefaultAsync(string sql, object entity)
+        public async Task<T> QueryFirstOrDefaultAsync<T>(string sql, object entity)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
-                return await connection.QueryFirstOrDefaultAsync(sql, entity);
+                return await connection.QueryFirstOrDefaultAsync<T>(sql, entity);
             }
         }
 
-        public async Task<dynamic> QueryFirstAsync(string sql, object entity)
+        public async Task<T> QueryFirstAsync<T>(string sql, object entity)
         {
             using (var connection = new SqlConnection(_connectionString))
             {

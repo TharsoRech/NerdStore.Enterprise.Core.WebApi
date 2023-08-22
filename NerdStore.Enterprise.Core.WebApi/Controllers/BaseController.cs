@@ -3,8 +3,11 @@ using System.Net;
 
 namespace NerdStore.Enterprise.Core.WebApi.Controllers
 {
+    [ApiController]
+    [Route("[controller]/api/v1/[action]/")]
     public class BaseController:ControllerBase
     {
+
         [NonAction]
         public IActionResult JsonOk(object message)
         {
@@ -19,7 +22,8 @@ namespace NerdStore.Enterprise.Core.WebApi.Controllers
                     StatusCode = (int)HttpStatusCode.InternalServerError
                 };
             }
-        
-        }  
+
+        }
+
     }
 }

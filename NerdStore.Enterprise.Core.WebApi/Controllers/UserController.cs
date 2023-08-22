@@ -1,11 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using NerdStore.Enterprise.Core.Application.Dtos;
 using NerdStore.Enterprise.Core.Application.Interfaces;
-using NerdStore.Enterprise.Core.Domain.Entities;
 
 namespace NerdStore.Enterprise.Core.WebApi.Controllers
 {
-    [ApiController]
-    [Route("[controller]/api/v1/[action]/")]
+    [Authorize("Bearer")]
     public class UserController : BaseController
     {
 
@@ -17,10 +17,10 @@ namespace NerdStore.Enterprise.Core.WebApi.Controllers
         }
 
         [HttpPost()]
-        public async Task<IActionResult> AddUser(User user)
+        public async Task<IActionResult> AddUser(LoginDtoUser user)
         {
             await _userApplication.AddUser(user);
-            return JsonOk(user);
+            return Ok(user);
         }
     }
 }

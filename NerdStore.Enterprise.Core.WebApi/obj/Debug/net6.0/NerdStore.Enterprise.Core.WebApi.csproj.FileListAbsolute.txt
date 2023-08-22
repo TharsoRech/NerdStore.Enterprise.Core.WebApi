@@ -74,3 +74,5 @@ C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterpri
 C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.WebApi\bin\Debug\net6.0\NerdStore.Enterprise.Core.Application.pdb
 C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.WebApi\bin\Debug\net6.0\NerdStore.Enterprise.Core.Infra.Data.pdb
 C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.WebApi\obj\Debug\net6.0\NerdStore.Enterprise.Core.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Tharso\source\repos\NerdStore.Enterprise.Core.WebApi\NerdStore.Enterprise.Core.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
